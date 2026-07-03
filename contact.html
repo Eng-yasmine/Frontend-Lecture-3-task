@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>GreenBite Catering</h1>
+    <h4>Fresh. Healthy. Delivered.</h4>
+    <a href="./index.html">Home</a> | <a href="./about.html">About & Services</a> | <a href="./contact.html">Contact & Booking</a>
+    <hr>
+
+    <h2>Contact Us</h2>
+    <p>We would love to hear from you! Reach us using the details below:</p>
+    <p><em>GreenBite Catering<br>
+    42 Green Leaf Avenue<br>
+    Springfield, ST 12345<br>
+    Phone: <a href="tel:+15551234567">(555) 123-4567</a><br>
+    Email: <a href="mailto:hello@greenbite.com">hello@greenbite.com</a></em></p>
+    <p>Office Hours: Monday – Friday, 8:00 AM – 6:00 PM</p>
+    <p>We respond to all inquiries within 24 hours.</p>
+    <hr>
+
+    <h2>Book Your Catering</h2>
+    <p>Fill out the form below to request a quote or place an order.</p>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Your Information</legend>
+            <p>
+                <label for="full-name">Full Name:</label><br>
+                <input type="text" id="full-name" name="full-name" placeholder="Jane Doe" required>
+            </p>
+            <p>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+            </p>
+            <p>
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="(555) 987-6543" required>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Order Details</legend>
+            <p>
+                <label for="people">Number of People:</label><br>
+                <input type="number" id="people" name="people" min="1" required>
+            </p>
+            <p>
+                <label for="event-date">Event Date:</label><br>
+                <input type="date" id="event-date" name="event-date" required>
+            </p>
+            <p>
+                <label for="delivery-time">Preferred Delivery Time:</label><br>
+                <input type="time" id="delivery-time" name="delivery-time" required>
+            </p>
+            <p>Service Type:</p>
+            <p>
+                <input type="radio" id="office" name="service-type" value="office-catering" required>
+                <label for="office">Office Catering</label>
+            </p>
+            <p>
+                <input type="radio" id="school" name="service-type" value="school-meals">
+                <label for="school">School Meals</label>
+            </p>
+            <p>
+                <input type="radio" id="event" name="service-type" value="event-catering">
+                <label for="event">Event Catering</label>
+            </p>
+            <p>
+                <input type="radio" id="weekly" name="service-type" value="weekly-meal-plan">
+                <label for="weekly">Weekly Meal Plan</label>
+            </p>
+            <p>
+                <label for="package">Select a Package:</label><br>
+                <select id="package" name="package" required>
+                    <option value="">-- Choose a package --</option>
+                    <option value="starter">Starter</option>
+                    <option value="standard">Standard</option>
+                    <option value="premium">Premium</option>
+                    <option value="enterprise">Enterprise</option>
+                    <option value="event-special">Event Special</option>
+                </select>
+            </p>
+            <p>Dietary Requirements (check all that apply):</p>
+            <p>
+                <input type="checkbox" id="vegetarian" name="dietary" value="vegetarian">
+                <label for="vegetarian">Vegetarian</label>
+            </p>
+            <p>
+                <input type="checkbox" id="vegan" name="dietary" value="vegan">
+                <label for="vegan">Vegan</label>
+            </p>
+            <p>
+                <input type="checkbox" id="gluten-free" name="dietary" value="gluten-free">
+                <label for="gluten-free">Gluten-Free</label>
+            </p>
+            <p>
+                <input type="checkbox" id="nut-free" name="dietary" value="nut-free">
+                <label for="nut-free">Nut-Free</label>
+            </p>
+            <p>
+                <label for="notes">Additional Notes or Special Requests:</label><br>
+                <textarea id="notes" name="notes" rows="5" cols="50" placeholder="Tell us about your event, allergies, or menu preferences..."></textarea>
+            </p>
+        </fieldset>
+
+        <p>
+            <button type="submit">Submit Booking Request</button>
+            <button type="reset">Clear Form</button>
+        </p>
+    </form>
+    <hr>
+
+    <h2>Frequently Asked Questions</h2>
+    <ul>
+        <li>How far in advance should I book?</li>
+        <li>Do you accommodate food allergies?</li>
+        <li>What areas do you deliver to?</li>
+        <li>Can I cancel or change my order?</li>
+    </ul>
+    <hr>
+    <p>© 2026 GreenBite Catering. All rights reserved.</p>
+    <p>Visit <a href="https://www.choosemyplate.gov/" target="_blank">ChooseMyPlate.gov</a> for healthy eating guidelines.</p>
+
+</body>
+</html>
